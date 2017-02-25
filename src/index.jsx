@@ -5,7 +5,6 @@ import { createStore } from 'redux';
 import Root from './Root';
 import routes from './routes';
 
-
 var store = createStore(() => {})
 
 const renderApp = appRoutes => {
