@@ -1,0 +1,22 @@
+{
+  "name": "priorsurveyapi",
+  "version": "0.0.1",
+  "description": "An api to handle form submits",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Web Machine",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "mailgun-js": "^0.8.1",
+    "method-override": "^2.3.7",
+    "morgan": "^1.8.0",
+    "nodemon": "*"
+  }
+}
